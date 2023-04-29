@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+/* header and footer */
+.background {
+    background-color: rgb(141, 133, 133);
+    height: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* list */
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+    list-style: none;
+    font-size: 20px;
+    padding: 0.5rem;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* button and button container */
+.btnContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+    background-color: rgb(28, 28, 161);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* bottom button */
+.bottom>.flexDiv>button {
+    width: 9rem;
+    background-color: rgb(28, 28, 161);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.flexDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 50%; */
+}
+
+/* .textUtils */
+.textUtils {
+    background-color: cyan;
+    border: 2px solid black;
+}
+
+.textBox {
+    margin: 1rem auto 0.5rem auto;
+    width: 50%;
+}
+
+.textSummaryBox {
+    width: 50%;
+    margin: 0.5rem auto 0.5rem auto;
+}
+
+.TextPreview {
+    height: 3rem;
+    border: 2px solid cyan
+}
+
+/* about */
+.about {
+    background-color: salmon;
+    padding: 2rem;
+}
+
+.aboutBox {
+    border-radius: 3px;
+    margin: 3rem;
+    width: 50%
+}
+
+/* contact */
+.contactContainer {
+    height: 35rem;
+    background-color: aquamarine;
+    padding: 7rem;
 }

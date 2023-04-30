@@ -13,6 +13,8 @@ import Contact from "./componants.js/Contact";
 export default function App() {
 
   return (
+    <>
+    
     <Router>
 
       <div>
@@ -36,6 +38,7 @@ export default function App() {
 
       </div>
     </Router>
+    </>
   )
 }
 
